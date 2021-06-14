@@ -1,0 +1,85 @@
+/* nav */
+.form_navigation {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #1BBC9B;
+  }
+  .form_navigation .nav_links .nav-link {
+    padding: 18px 13px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2D3E50;
+    -webkit-font-size: 15px;
+    -moz-font-size: 15px;
+    -ms-font-size: 15px;
+    font-size: 15px;
+    transition: 0.3s linear all;
+  }
+  
+  .form_navigation .nav_links .nav-link:focus {
+    outline: none !important;
+  }
+  
+  .form_navigation .nav_links .nav-link:hover {
+    background-color: #F3F3F3;
+    color: #1BBC9B;
+    transition: 0.3s linear all;
+  }
+
+  /* Messaging */
+  header.row {
+    margin-top: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  #messages {
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .messageText {
+    background:#1BBC9B;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  .userMessageText {
+    background: #2D3E50;
+    color: #f3f3f3;
+  }
+  .message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .timestamp {
+    color: darkgray;
+    font-size: 10px;
+  }
+  .inputBar {
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+  }
+  .inputBar .btn {
+    width: 100%;
+  }
+  
+  .message .buttons {
+    visibility: hidden;
+  }
+  
+  .message:hover .buttons {
+    visibility: visible;
+  }
+
+  .button {
+    background-color: #1BBC9B;
+    /* padding: 10px 15px; */
+    color: #2D3E50;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    /* box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.65); */
+    text-decoration: none;
+    transition: 0.4s;
+}

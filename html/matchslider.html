@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FLIRT FIRST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/matchslider.css" />
   </head>
   <body>
       <nav class="navbar navbar-expand-md navbar-dark form_navigation">
@@ -47,33 +48,41 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav><!--Cards-->
+    <hr>
+    <h4 class="text-center"><strong>Match</strong></h4>
+    <hr>
+    <div class="slide-container">
+        <div class="wrapper">
+            <div class="match-card">
+                <div class="match-card__image">
+                    <img src="https://images.unsplash.com/photo-1614289371518-722f2615943d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="match profile picture" />
+                </div>
+                <div class="match-card__name">Person McPerson</div>
+                <div class="match-card__location">Utica, NY</div>
+                <div class="match-card__description">Professional Meme Procurist for a company you've never heard of. Not a fan of pets that aren't rocks. Pretty sure the right person for me has a trust fund.</div>
+        <div class="match-card_fact">
+            <div class="one-third">
+                <div class="fact">Yes</div>
+                <div class="factvalue">Remote Worker</div>
+            </div>
 
-      <div class="container-fluid">
-        <div class="big-image">
-          <div class="overlay"></div>
+            <div class="one-third">
+                <div class="fact">Yes</div>
+                <div class="factvalue">Vaccinated</div>
+            </div>
+
+            <div class="one-third">
+                <div class="fact">Prefers</div>
+                <div class="factvalue">Physical Date</div>
+            </div>
         </div>
-
-      <div class="container">
-        <h1>FLIRT FIRST</h1>
-        <div class="row">
-          <div class="col"><a href="" class id="button">LOG IN</a></div>
-           <!-- <div class="col"><a href="#" class="button">REGISTER</a></div> --> 
+    </div>
+    <div class="tinder--buttons">
+        <button id="nope"><i class="fa fa-remove"></i></button>
+        <button id="love"><i class="fa fa-heart"></i></button>
       </div>
-
-  <div class="popup">
-        <div class="popup-content">
-          <img src="/images/Close.png" alt="Close" class="close">
-          <img src="/images/User.png" alt="User">
-          <div class="row">
-            <input type="text" placeholder="username">
-            <input type="password" placeholder="password">
-            <a href="#" class="button">LOGIN</a>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
+    </div>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/JS/script.js"></script> -->
 <script src="/JS/script.js">

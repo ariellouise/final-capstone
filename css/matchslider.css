@@ -1,0 +1,162 @@
+
+/* nav */
+.form_navigation {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #1BBC9B;
+  }
+  .form_navigation .nav_links .nav-link {
+    padding: 18px 13px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2D3E50;
+    -webkit-font-size: 15px;
+    -moz-font-size: 15px;
+    -ms-font-size: 15px;
+    font-size: 15px;
+    transition: 0.3s linear all;
+  }
+  
+  .form_navigation .nav_links .nav-link:focus {
+    outline: none !important;
+  }
+  
+  .form_navigation .nav_links .nav-link:hover {
+    background-color: #F3F3F3;
+    color: #1BBC9B;
+    transition: 0.3s linear all;
+  }
+
+  /*match cards*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.slide-container {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.match-card {
+    background: #1BBC9B;
+    border-radius: 19px;
+    width: 338px;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+}
+
+.match-card__image {
+    position: relative;
+    border-radius: 20px;
+    padding-top: 12px;
+    height: 479px;
+    margin-bottom: 35px;
+}
+
+.match-card__location {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.match-card__name {
+    font-size: 25px;
+    color: black;   
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.match-card__description {
+    padding: 25px;
+    margin-bottom: 10px;
+}
+.match-card_fact {
+  
+    color: black;
+    font-weight: 700;
+
+   } 
+    .one-third {
+        width: 32%;
+        float: left;
+        padding: 20px 15px;
+      }
+      
+      
+    .fact {
+      position: relative;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .factvalue {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  
+    .no-border {
+      border-right: none;
+    }
+  
+    .clearfix:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+  }
+
+  .match-card-1:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+
+  /*tinder buttons*/
+  .tinder--buttons {
+    flex: 0 0 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .tinder--buttons button {
+    border-radius: 50%;
+    line-height: 60px;
+    width: 60px;
+    border: 0;
+    background: #FFFFFF;
+    display: inline-block;
+    margin: 0 8px;
+  }
+  
+  .tinder--buttons button:focus {
+    outline: 0;
+  }
+  
+  .tinder--buttons i {
+    font-size: 32px;
+    vertical-align: middle;
+  }
+  
+  .fa-heart {
+    color: #FFACE4;
+  }
+  
+  .fa-remove {
+    color: #CDD6DD;
+  }
+  

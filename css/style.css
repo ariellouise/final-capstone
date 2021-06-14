@@ -88,7 +88,7 @@
     margin-bottom: 40px;
 }
 
-.button {
+#button {
     background-color: #1BBC9B;
     padding: 10px 15px;
     color: #2D3E50;
@@ -101,13 +101,13 @@
     transition: 0.4s;
 }
 
-.button:hover {
+#button:hover {
     background-color: #F3F3F3;
     color: #1BBC9B;
     transition: 0.3s linear all;
 }
 
-.popup {
+#popup {
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;   
@@ -119,7 +119,7 @@
     text-align: center;
 }
 
-.popup-content {
+#popup-content {
     height: 250px;
     width: 500px;
     background: #F3F3F3;
@@ -129,7 +129,7 @@
 
 }
 
-.input {
+#input {
     margin: 20px auto;
     display: block;
     width: 50%;
